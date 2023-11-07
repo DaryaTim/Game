@@ -1,6 +1,13 @@
 public class Enemy {
-    public String name;
-    public int health;
+    private String name;
+    private int health;
+    private int demage;
+
+
+
+    public Enemy(int health) {
+        this.health = health;
+    }
 
     public String getName() {
         return name;
@@ -19,10 +26,18 @@ public class Enemy {
     }
 
     public Enemy() {
-
         this.getHealth();
         this.setHealth();
     }
+
+    public int getDemage() {
+        return demage;
+    }
+
+    public void setDemage(int demage) {
+        this.demage = demage;
+    }
+
     public int takeDamage (int damage){
         health = health - damage;
         return health;

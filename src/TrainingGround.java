@@ -14,11 +14,7 @@ public class TrainingGround {
         System.out.println( heroArcher.getName() + " атакует врага");
 
 
-        System.out.println(hero1.attackEnemy());
 
 
-
-
-
-        }
+    }
 }

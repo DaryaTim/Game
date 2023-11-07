@@ -8,3 +8,4 @@ public class Warrior extends Hero {
         return name;
     }
 }
+
